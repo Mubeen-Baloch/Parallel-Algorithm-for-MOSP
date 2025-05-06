@@ -1,0 +1,16 @@
+Rank 0 loaded 6 vertices
+Rank 0 owns the source vertex 0
+Rank 0: Updated Pareto front for vertex 2 with (5, 7)
+Rank 0: Updated Pareto front for vertex 2 with (1, 1)
+Rank 0: Updated Pareto front for vertex 2 with (3, 0)
+[MOSP] Iteration 1 complete. Total updates = 3
+[MOSP] Iteration 2 complete. Total updates = 0
+[Performance] Execution Time: 0.000958204 seconds
+[Performance] Total FLOPs: 3
+[Performance] MFLOPS: 0.00313086 MFLOPS
+Process 0 - Vertex 5: 
+Process 0 - Vertex 4: 
+Process 0 - Vertex 3: 
+Process 0 - Vertex 2: (1, 1) (3, 0) 
+Process 0 - Vertex 1: 
+Process 0 - Vertex 0: (0, 0) 

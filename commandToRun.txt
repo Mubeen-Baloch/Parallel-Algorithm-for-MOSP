@@ -1,0 +1,20 @@
+python3 datasets/subset_mtx_graph.py datasets/roadNet-CA/roadNet-CA.mtx datasets/roadNet_CA_subset.mtx 10000
+
+OR
+ 
+python3 datasets/convert_mtx_to_metis.py datasets/roadNet_CA_subset.mtx datasets/roadNet_CA_subset.txt
+
+gpmetis datasets/roadNet_CA_subset.txt 4
+
+mpic++ -std=c++17 -fopenmp src/parallel_update.cpp -o parallel_update
+
+
+mpirun -np 8 ./parallel_update datasets/roadNet_CA_subset.txt datasets/roadNet_CA_subset.txt.part.8
+
+mpirun -np 2 ./parallel_update datasets/small_graph.txt datasets/small_graph.part > results/mosp_small_output.txt
+
+python3 extract_summary.py
+
+cat results/summary.csv
+
+
