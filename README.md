@@ -1,5 +1,3 @@
----
-
 # Parallel Graph Algorithms for MOSP Using MPI, OpenMP, and METIS
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
