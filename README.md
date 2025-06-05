@@ -12,7 +12,7 @@ This project implements **parallel algorithms for solving the Multi-Objective Sh
 
 The goal is to efficiently compute Pareto-optimal solutions for large-scale graphs while analyzing scalability and performance across different system configurations.
 
-This project was developed as part of a course on **Parallel and Distributed Computing** at [University Name]. It demonstrates the effective use of modern parallel computing techniques to solve challenging graph problems.
+This project was developed as part of a course on **Parallel and Distributed Computing** at FAST NUCES. It demonstrates the effective use of modern parallel computing techniques to solve challenging graph problems.
 
 ---
 
